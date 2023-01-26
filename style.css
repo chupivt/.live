@@ -1,0 +1,7 @@
+html {
+    radial-gradient(circle, #4f46e4 25%, transparent 26%),radial-gradient(circle at bottom left, #4f46e4 12%, transparent 13%),radial-gradient(circle at bottom right, #4f46e4 12%, transparent 13%),radial-gradient(circle at top left, #4f46e4 12%, transparent 13%),radial-gradient(circle at top right, #4f46e4 12%, transparent 13%);
+    background-size: 3em 3em;
+    background-color: #ffffff;
+    opacity: 1;
+}
+
