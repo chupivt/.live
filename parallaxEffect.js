@@ -12,7 +12,7 @@
         let _h = window.innerHeight/2;
         let _mouseX = e.clientX;
         let _mouseY = e.clientY;
-        let _depthBackground = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+        let _depthBackground = `${50 - (_mouseX - _w) * 0.025}% ${50 - (_mouseY - _h) * 0.025}%`;
         let _depthChupi
         if (mediaQuery.matches) {
             _depthChupi = `${43 - (_mouseX - _w) * 0.01}% ${-20 - (_mouseY - _h) * 0.01}%`;
