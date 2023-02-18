@@ -114,6 +114,43 @@ div{
     padding: 10px 0;
 }
 
+.modbox{
+    max-width: 1050px;
+    width: 80%;
+    text-justify:auto;
+    text-align: justify;
+    
+}
+
+.tosbox{
+    background: #EE3A6C;
+    height: auto;
+    text-align: center;
+    width: 80%; 
+    max-width: 1440px; 
+    border-radius: 25px;
+    padding: 10px 0;
+}
+
+.tosbox > ul{
+    text-align: justify;
+}
+
+.tosbox > div > p >a{
+    color: #E2ABCA;
+}
+
+.modbox > p {
+    text-align: justify;
+}
+
+.modbox > img {
+    border-radius: 50%;
+    max-width: 200px; 
+    min-width:100px; 
+    height: auto;
+}
+
 .immovableObject {
     pointer-events: none;
     user-drag: none; 
