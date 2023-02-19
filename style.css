@@ -201,4 +201,22 @@ div{
 }
 
 
+#portfolio {
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 90%;
+    margin: 0 auto;
+}
 
+#portfolio > a > img {
+    max-height: 500px;
+    min-height: 300px;
+    height: auto;
+    width: 100%;
+    max-width: max-content;
+    border-radius: 10px;
+    margin:10px;
+}
