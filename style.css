@@ -126,9 +126,10 @@ End fade in */
 }
 
 #modbox > img {
-    max-width: 200px; 
+    max-width: 130px; 
     min-width: 100px; 
     height: auto;
+    padding: 20px;
 }
 
 #immovableObject {
