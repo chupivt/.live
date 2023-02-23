@@ -13,7 +13,7 @@ h2{
     color: #EFE1CA; /* Chupi brand color */
     font-family: 'Cedarville Cursive', cursive;
     font-size:xx-large;
-    margin-top: 0px;
+    margin: 0;
 }
 
 a {
@@ -120,6 +120,11 @@ End fade in */
     text-align: justify;
 }
 
+#social {
+    max-height: 60px;
+    margin: 0 10px;
+}
+
 #modbox{
     max-width: 1170px;
     padding: 0;
@@ -188,4 +193,17 @@ End fade in */
     max-width: max-content;
     border-radius: 10px;
     margin:10px;
+}
+
+iframe{
+    border-radius: 15px;
+}
+
+.splitdisplay {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.splitdisplay > .infobox {
+    padding: 10px;
 }
